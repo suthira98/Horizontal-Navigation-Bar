@@ -1,0 +1,35 @@
+body{
+	background: url("black.jpg");
+	margin: 1%;
+	padding: 1%;
+	color: #ffffff;
+}
+
+nav{
+	box-sizing: border-box;
+	border: 1px solid #b5b5b5;
+	background-color: #06425C; 
+	overflow: auto;
+	padding-left: 20px;
+}
+
+nav a{
+	box-sizing: border-box;
+	display: inline-block;
+	height: 60px;
+	color: #ffffff;
+	background-color: #486B02;
+	text-decoration: none;
+	margin: 1% 5% 1% 0%;
+	padding: 1% 5%;
+	border-radius: 50%;
+}
+
+.current{
+	background: #800000;
+}
+
+nav a:hover{
+	color: #e895cb;
+	border-radius: 30px;
+}
